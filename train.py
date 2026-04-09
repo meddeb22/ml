@@ -18,7 +18,4 @@ model = LogisticRegression()
 # Entraîner le modèle sur les données
 model.fit(X, y)
 
-# Sauvegarder le modèle entraîné avec joblib (sans dépendances pandas)
-joblib.dump(model, 'data/churn_model_clean.pkl')
-
 print("Modèle de régression logistique entraîné et sauvegardé sous 'churn_model_clean.pkl'.")
